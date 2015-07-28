@@ -17,7 +17,9 @@
         "dnx451": { },
         "dnxcore50": { }
     },
-
+    "bundleExclude": [
+        "tmp"
+    ],
     "exclude": [
         "wwwroot",
         "node_modules",
